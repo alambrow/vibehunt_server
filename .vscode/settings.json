@@ -4,4 +4,12 @@
         "--load-plugins=pylint_django",
         "--django-settings-module=vibehunt_api.settings",
     ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "db",
+            "database": "db.sqlite3"
+        }
+    ],
 }

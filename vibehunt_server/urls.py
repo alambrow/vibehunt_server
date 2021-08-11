@@ -15,7 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
+from rest_framework import routers
+from vibehunt_api.views import VenueView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'venues', VenueView, 'venue')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
+    path('', include(router.urls))
 ]
