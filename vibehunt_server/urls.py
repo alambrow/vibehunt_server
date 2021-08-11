@@ -17,10 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from vibehunt_api.views import VenueView
+from vibehunt_api.views import VenueView, CommentView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'venues', VenueView, 'venue')
+router.register(r'comments', CommentView, 'comment')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

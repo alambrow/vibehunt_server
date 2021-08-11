@@ -16,6 +16,14 @@ class VenueView(ViewSet):
             venues, many=True, context={'request': request}
         )
         return Response(serializer.data)
+    
+    def retrieve(self, request, pk=None):
+        try:
+            venue = Venue.objects.get(pk=pk)
+            serializer = VenueSerializer(venue, context={'request': request})
+            return Response(serializer.data)
+        except Exception as ex:
+            return HttpResponseServerError(ex)
 
 
 class VenueSerializer(serializers.ModelSerializer):
