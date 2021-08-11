@@ -1,0 +1,12 @@
+[
+    {
+        "model": "vibehunt_api.comment",
+        "pk": 1,
+        "fields": {
+            "venueId": 1,
+            "commentId": 3,
+            "timestamp": 1627147188309
+        }
+    }
+
+]

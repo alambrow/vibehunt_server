@@ -1,0 +1,13 @@
+[
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 1,
+        "fields": {
+            "venId": "ven_59504c574f3144466b7a535267495a6d4a5a534f5753624a496843",
+            "name": "The Patterson House",
+            "address": "1711 Division St Nashville, TN 37203 United States",
+            "lat": 36.1512784,
+            "long": -86.7940805
+        }
+    }
+]
