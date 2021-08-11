@@ -6,8 +6,117 @@
             "venId": "ven_59504c574f3144466b7a535267495a6d4a5a534f5753624a496843",
             "name": "The Patterson House",
             "address": "1711 Division St Nashville, TN 37203 United States",
+            "neighborhood": "Midtown",
             "lat": 36.1512784,
             "long": -86.7940805
         }
-    }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 2,
+        "fields": {
+            "venId": "ven_77504a7a4c334575537a725267495a6e4e334c6c4854614a496843",
+            "name": "The Dogwood",
+            "address": "1907 Division St Nashville, TN 37203 United States",
+            "neighborhood": "Midtown",
+            "lat": 36.1498107,
+            "long": -86.7963357
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 3,
+        "fields": {
+            "venId": "ven_3057656b6875336e4448565267495a6d5270436a5562594a496843",
+            "name": "Tavern",
+            "address": "1904 Broadway Nashville, TN 37203 United States",
+            "lat": 36.150894,
+            "long": -86.7970387,
+            "neighborhood": "Midtown"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 4,
+        "fields": {
+            "venId": "ven_635471444b3341696772515267495a6e7873797868324f4a496843",
+            "name": "Attaboy",
+            "address": "8 Mcferrin Ave Nashville, TN 37206 United States",
+            "lat": 36.1761096,
+            "long": -86.7554403,
+            "neighborhood": "East Nashville"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 5,
+        "fields": {
+            "venId": "ven_6b6a726c3455665130734a5267495a6d56494e786339594a496843",
+            "name": "Old Glory",
+            "address": "1200 Villa Pl Suite 103 Nashville, TN 37212 United States",
+            "lat": 36.1429176,
+            "long": -86.7915144,
+            "neighborhood": "Midtown"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 6,
+        "fields": {
+            "venId": "ven_49574a5435305530466c625267495a6d4e557775615a4b4a496843",
+            "name": "Pinewood Social",
+            "address": "33 Peabody St Nashville, TN 37210 United States",
+            "lat": 36.1583833,
+            "long": -86.7677778,
+            "neighborhood": "Downtown"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 7,
+        "fields": {
+            "venId": "ven_3057696b665f46446765445267495a6e524f41634e7a324a496843",
+            "name": "The Hampton Social",
+            "address": "201 1st Ave S Nashville, TN 37201 United States",
+            "lat": 36.1599591,
+            "long": -86.7732544,
+            "neighborhood": "Downtown"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 8,
+        "fields": {
+            "venId": "ven_7332682d597378495444435267495a6f6c5167527539724a496843",
+            "name": "The Fox Bar & Cocktail Club",
+            "address": "2905B Gallatin Pike Nashville, TN 37216 United States",
+            "lat": 36.2028611,
+            "long": -86.7392778,
+            "neighborhood": "East Nashville"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 9,
+        "fields": {
+            "venId": "ven_514c3655636537765136325267495a6d746f724366556d4a496843",
+            "name": "Gertie's Whiskey Bar",
+            "address": "507 12th Ave S Fl 1 Nashville, TN 37203 United States",
+            "lat": 36.151791,
+            "long": -86.7847415,
+            "neighborhood": "Midtown"
+        }
+    },
+    {
+        "model": "vibehunt_api.venue",
+        "pk": 10,
+        "fields": {
+            "venId": "ven_344b745f557769716742385267495a6e78564b347935594a496843",
+            "name": "Snitch",
+            "address": "206 Printers Alley Nashville, TN 37219 United States",
+            "lat": 36.1641938,
+            "long": -86.7786528,
+            "neighborhood": "Downtown"
+        }
+    } 
 ]

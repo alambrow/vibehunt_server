@@ -10,7 +10,12 @@ from vibehunt_api.models import Venue
 class VenueView(ViewSet):
 
     def list(self, request):
-        venues = Venue.objects.all()
+        neighborhood = self.request.query_params.get('neighborhood', None)
+
+        if neighborhood:
+            venues = Venue.objects.filter(neighborhood=neighborhood)
+        else:
+            venues = Venue.objects.all()
 
         serializer = VenueSerializer(
             venues, many=True, context={'request': request}
@@ -30,5 +35,5 @@ class VenueSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Venue
-        fields = ('id', 'venId', 'name', 'address', 'lat', 'long')
+        fields = ('id', 'venId', 'name', 'address', 'neighborhood', 'lat', 'long')
         depth = 1
