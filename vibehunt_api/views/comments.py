@@ -18,10 +18,10 @@ class CommentView(ViewSet):
         else:
             comments = Comment.objects.all()
         
-        time_window = time.time() - 7200
+        time_window = time.time() - 3600
         filteredComments = []
         for comment in comments:
-            if comment.timestamp >= time_window:
+            if comment.timestamp > time_window:
                 filteredComments.append(comment)
 
         serializer = CommentSerializer(
