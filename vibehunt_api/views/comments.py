@@ -18,14 +18,14 @@ class CommentView(ViewSet):
         else:
             comments = Comment.objects.all()
         
-        time_window = time.time() - 3600
-        filteredComments = []
-        for comment in comments:
-            if comment.timestamp > time_window:
-                filteredComments.append(comment)
+        # time_window = time.time() - 3600
+        # filteredComments = []
+        # for comment in comments:
+        #     if comment.timestamp > time_window:
+        #         filteredComments.append(comment)
 
         serializer = CommentSerializer(
-            filteredComments, many=True, context={'request': request}
+            comments, many=True, context={'request': request}
         )
         return Response(serializer.data)
     
