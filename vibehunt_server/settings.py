@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
 CORS_ORIGIN_WHITELIST = (
     'https://vibehunt-client.herokuapp.com',
+    'http://localhost:3000/',
 )
 
 MIDDLEWARE = [
