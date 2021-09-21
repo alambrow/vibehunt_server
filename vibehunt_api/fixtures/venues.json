@@ -49,18 +49,6 @@
     },
     {
         "model": "vibehunt_api.venue",
-        "pk": 5,
-        "fields": {
-            "venId": "ven_6b6a726c3455665130734a5267495a6d56494e786339594a496843",
-            "name": "Old Glory",
-            "address": "1200 Villa Pl Suite 103 Nashville, TN 37212 United States",
-            "lat": 36.1429176,
-            "long": -86.7915144,
-            "neighborhood": "Midtown"
-        }
-    },
-    {
-        "model": "vibehunt_api.venue",
         "pk": 6,
         "fields": {
             "venId": "ven_49574a5435305530466c625267495a6d4e557775615a4b4a496843",
